@@ -1,0 +1,41 @@
+<p>
+	<strong>Timestamp To Convert</strong>
+</p>
+<form method="POST" id="convertTimestamp">
+	<table>
+		<tr>	
+			<td class="heading">
+				Unix Timestamp: 
+			</td>
+
+			<td>
+				<input type="text" name="timestamp_string" class="required digits" maxlength="10">
+			</td>
+		</tr>
+	</table>
+	<div align="center">
+		<input type="submit" value="Convert Timestamp">
+	</div>
+</form>
+	{%date%}
+<br>
+<p>
+	<strong>Date To Timestamp</strong>
+</p>
+<form method="POST" id="convertDate">
+	<table>
+		<tr>	
+			<td class="heading">
+				Timestamp Date: 
+			</td>
+
+			<td>
+				<input type="text" name="date_string" class="required" id="datePicker">
+			</td>
+		</tr>
+	</table>
+	<div align="center">
+		<input type="submit" value="Convert Date">
+	</div>
+	{%timestamp%}
+</form>

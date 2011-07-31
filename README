@@ -1,0 +1,8 @@
+Date / Timestamp converter plugin for Wordpress
+Author: Anthony Mills
+URL: http://www.development-cycle.com
+Version: 0.1
+Date: 22nd July 2011
+
+Small, simple plugin allowing the conversion of a unix timestamp to a date and vice versa. 
+To use simply insert the [timestamp-converter] short tag into your page where you would like to place the converter.
